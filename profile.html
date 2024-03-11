@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Profile.css">
+  <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css">
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+
+  <title>Profile Page</title>
+</head>
+<body>
+  <nav>
+    <img id="image" src="image/logo.svg" alt="">
+        
+        <ul>
+           <li><a  href="index.html">Home</a></li>
+           <li><a  href="login.html">Login</a></li>
+            <li><a href="index.html">About</a></li>
+            <li><a href="index.html">Contact</a></li>
+            <li><a href="index.html">Feedback</a></li>
+
+        </ul>
+  </nav> 
+  <div id="profileForm">
+    <h2>Your Profile</h2>
+    <form>
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName" required>
+  
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" required>
+  
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" required>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+  
+      <label for="university">University Name:</label>
+      <input type="text" id="university" name="university" required>
+  
+      <label for="admitYear">Year of Admit:</label>
+      <select id="admitYear" name="admitYear" required>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+        <option value="other">Other</option>
+      </select>
+  
+      <label for="currentYear">Current Year:</label>
+      <select id="currentYear" name="currentYear" required>
+        <option value="1st">1st</option>
+        <option value="2nd">2nd</option>
+        <option value="3rd">3rd</option>
+        <option value="4th">4th</option>
+      </select>
+  
+      <label for="cgpa">CGPA:</label>
+      <input type="text" id="cgpa" name="cgpa" required>
+  
+      <label for="graduateYear">Year of Graduate:</label>
+      <select id="graduateYear" name="graduateYear" required>
+        <option value="2025">2025</option>
+        <option value="2026">2026</option>
+        <option value="2027">2027</option>
+        <option value="other">Other</option>
+      </select>
+  
+      <label for="degree">Degree:</label>
+      <select id="degree" name="degree" required>
+        <option value="BAC">BAC</option>
+        <option value="B.tech">B.tech</option>
+        <option value="M.tech">M.tech</option>
+        <option value="Phd">Phd</option>
+      </select>
+  
+      <label for="specification">Specification:</label>
+      <select id="specification" name="specification" required>
+        <option value="CSE">CSE</option>
+        <option value="IT">IT</option>
+        <option value="Mechanical">Mechanical</option>
+        <option value="Electrical">Electrical</option>
+        <option value="Robotics">Robotics</option>
+      </select>
+  
+      <label for="technicalSkills">Technical Skills:</label>
+      <input type="text" id="technicalSkills" name="technicalSkills" required>
+  
+      <label for="experienceYear">Year of Experience:</label>
+      <select id="experienceYear" name="experienceYear" required>
+        <option value="0-1 Year">0-1 Year</option>
+        <option value="1-3 Year">1-3 Year</option>
+        <option value="3+ Year">3+ Year</option>
+      </select>
+  <br>
+      <button type="button" onclick="submitForm()">Submit</button>
+    </form>
+  </div>
+
+  
+
+  <script src="scripts.js"></script>
+
+</body>
+</html>

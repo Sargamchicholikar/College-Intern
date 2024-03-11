@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    /* margin-left: 20%; */
+
+  }
+
+  h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Bree Serif', serif;
+  }
+  #profileForm{
+    margin-left: 25%;
+    margin-top: 6%;
+    height: 155vh;
+    width: 50%;
+    display: block;
+    border-radius: 25px;
+    border: black solid;
+    padding: 2%;
+  }
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: 'Bree Serif', serif;
+  }
+  
+  input, select {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border-radius: 9px;
+    font-family: 'Bree Serif', serif;
+  }
+  
+  button {
+    margin-top: 2%;
+    width: 10%;
+    margin-left: 35%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(86, 87, 78);
+    height: 80px;
+    width: 100%;
+    /* opacity: 0.50; */
+    
+}
+nav #image{
+    height: 60px;
+    line-height: 80px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+nav ul{
+    float:right;
+    margin-right: 20px;
+    
+}
+nav ul li{
+    display: inline;
+    line-height: 50px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 88888px;
+}
+nav ul li a:hover{
+    color: black;
+    background-color: gray;
+    font-weight: bold;
+}
+  
